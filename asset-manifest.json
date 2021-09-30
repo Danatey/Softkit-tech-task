@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/softkit-tech-task/static/js/main.58ef4a3c.chunk.js",
+    "main.js.map": "/softkit-tech-task/static/js/main.58ef4a3c.chunk.js.map",
+    "runtime-main.js": "/softkit-tech-task/static/js/runtime-main.8c7ee3d8.js",
+    "runtime-main.js.map": "/softkit-tech-task/static/js/runtime-main.8c7ee3d8.js.map",
+    "static/js/2.2d506c1f.chunk.js": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js",
+    "static/js/2.2d506c1f.chunk.js.map": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js.map",
+    "index.html": "/softkit-tech-task/index.html",
+    "static/js/2.2d506c1f.chunk.js.LICENSE.txt": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c7ee3d8.js",
+    "static/js/2.2d506c1f.chunk.js",
+    "static/js/main.58ef4a3c.chunk.js"
+  ]
+}
