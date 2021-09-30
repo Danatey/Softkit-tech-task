@@ -1,15 +1,17 @@
-import ColorDiv from "../ColorDiv/ColorDiv"
+import ColorContainer from "../ColorContainer";
 
 const Form = ({ handleSubmit, colorArray, handleChange }) => {
     
     return (
         <form onSubmit={handleSubmit}>
-            {colorArray.map(({color,id, checked}) => {
-                return (<ColorDiv color={color} key={id} id={id} onChange={handleChange} checked={checked} handleChange={handleChange}/>)
-            })}
+            <ul>
+                {colorArray.map(({color,id, checked}) => {
+                    return (<ColorContainer color={color} key={id} id={id} onChange={handleChange} checked={checked} handleChange={handleChange}/>)
+                })}
+            </ul>
             <button type="submit">Submit</button>
         </form>
     )
 }
 
-export default Form
+export default Form;

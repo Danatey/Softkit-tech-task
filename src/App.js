@@ -2,13 +2,15 @@ import { useState } from "react";
 
 import { nanoid } from "nanoid";
 
-import Form from "./components/Form/Form.jsx";
+import Form from "./components/Form";
+
+import "./App.scss";
 
 const getRandom = Math.floor(Math.random() * 3) + 1;
 
 let colorArray = [];
 
-const createBoxes = (amount) => {
+const createColors = (amount) => {
   for (let i = 0; i < amount; i++) {
     colorArray.push({ color: "blue", id: nanoid(), checked: false });
   }
@@ -17,14 +19,13 @@ const createBoxes = (amount) => {
   }
   return colorArray;
 };
-createBoxes(getRandom);
+createColors(getRandom);
 
 function App() {
   const [colors, setColors] = useState(colorArray);
 
-  const blueColorArray = colorArray.filter((item) => item.color === "blue");
-
   const getCheckedBlue = () => {
+    const blueColorArray = colors.filter((item) => item.color === "blue");
     return blueColorArray.some((item) => item.checked === false);
   };
 

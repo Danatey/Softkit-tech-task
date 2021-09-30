@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(212, 139, 56);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+  &:checked + label {
+    border: 5px solid tomato;
+  }
+}
+
+label {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+button {
+  border: 1px solid rgb(71, 255, 200);
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: #fff;
+  color: blue;
+
+  &:active {
+    background-color: blue;
+    color: #fff;
+  }
+}
