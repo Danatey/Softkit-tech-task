@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.js": "/softkit-tech-task/static/js/main.58ef4a3c.chunk.js",
-    "main.js.map": "/softkit-tech-task/static/js/main.58ef4a3c.chunk.js.map",
+    "main.css": "/softkit-tech-task/static/css/main.5b3fff30.chunk.css",
+    "main.js": "/softkit-tech-task/static/js/main.4fc99389.chunk.js",
+    "main.js.map": "/softkit-tech-task/static/js/main.4fc99389.chunk.js.map",
     "runtime-main.js": "/softkit-tech-task/static/js/runtime-main.8c7ee3d8.js",
     "runtime-main.js.map": "/softkit-tech-task/static/js/runtime-main.8c7ee3d8.js.map",
-    "static/js/2.2d506c1f.chunk.js": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js",
-    "static/js/2.2d506c1f.chunk.js.map": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js.map",
+    "static/js/2.6baa3e19.chunk.js": "/softkit-tech-task/static/js/2.6baa3e19.chunk.js",
+    "static/js/2.6baa3e19.chunk.js.map": "/softkit-tech-task/static/js/2.6baa3e19.chunk.js.map",
     "index.html": "/softkit-tech-task/index.html",
-    "static/js/2.2d506c1f.chunk.js.LICENSE.txt": "/softkit-tech-task/static/js/2.2d506c1f.chunk.js.LICENSE.txt"
+    "static/css/main.5b3fff30.chunk.css.map": "/softkit-tech-task/static/css/main.5b3fff30.chunk.css.map",
+    "static/js/2.6baa3e19.chunk.js.LICENSE.txt": "/softkit-tech-task/static/js/2.6baa3e19.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8c7ee3d8.js",
-    "static/js/2.2d506c1f.chunk.js",
-    "static/js/main.58ef4a3c.chunk.js"
+    "static/js/2.6baa3e19.chunk.js",
+    "static/css/main.5b3fff30.chunk.css",
+    "static/js/main.4fc99389.chunk.js"
   ]
 }
